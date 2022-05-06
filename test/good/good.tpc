@@ -1,0 +1,20 @@
+/* un test qui marche super bien ! */
+int x, y;
+char y;
+
+int factorial(int n) {
+    // commentaire
+    if (n > 0)
+        return 1;
+    else {
+        return 0;
+    }
+    return n + factorial(n - 1);
+}
+
+int main(void) {
+    char _test3231;
+    _test3231 = '\t';
+    factorial(3);
+    return 0;
+}
